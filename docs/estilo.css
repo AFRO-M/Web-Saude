@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+body {
+    background-color: #63FFB7;
+    margin: 0;
+}
+
+nav img { 
+
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: -5px;
+    left: 13px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #9F7DFF;
+    margin-top: -98px;
+    margin-bottom: 0;
+}
+
+li a:active {
+    color: Thistle;
+    cursor: pointer;
+}
+
+li a:hover {
+    color: #63FFB7;
+    animation: gradient-hover 1s linear 0s forwards;
+}
+
+@keyframes gradient-hover {
+    from{background-color: #9f7dff}
+    to{background-color:  #8d63ff}
+}
+
+@font-face {
+    font-family: "Amatic SC";  
+    src:url("fonts/AmaticSC-Regular.woff2") format('woff2'), 
+        url("fonts/AmaticSC-Regular.ttf")   format('ttf');   
+}
+
+ul li {
+    font-family: "Amatic SC", cursive;
+    font-size: 17px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+ul li a{
+
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+@font-face {
+    font-family: "Roboto";  
+    src: url("fonts/Roboto-Regular.woff2") format('woff2'), 
+         url("fonts/Roboto-Regular.ttf")   format('ttf');   
+}
+
+section {
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+}
+
+
+section #textone {
+    width:300px;
+    height:440px;
+    border-radius: 5px 40px 5px 40px;
+    background-image: linear-gradient( to left top, #9f7dff, #8d63ff);
+    margin-top: 5em;
+    margin-left: 14em;
+    padding: 5px 1em 2px 1em;
+}
+
+section #texttwo {
+    width:300px;
+    height:440px;
+    border-radius: 40px 5px 40px 5px;
+    background-image: linear-gradient( to right top,  #9f7dff, #8d63ff);
+    margin-left: 40em;
+    margin-top: -25em;
+    padding: 5px 1em 2px 1em;
+}
+
+.titulo-article {
+    font-family: "Amatic SC", cursive;
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+}
+
+.land-page {
+    font-family: "Amatic SC", cursive;
+    width: auto;
+    height: 600px;
+    position: relative;
+    margin-top: 0;
+    font-size: 60px;
+    text-align: left;
+    background-image: linear-gradient(90deg, rgba(159, 125, 255, .75) , rgba(159, 125, 255, 0));
+    overflow: hidden;
+}
+
+.imagem-inicial {
+    top: -170px;
+    position: relative;
+    left: 0;
+    z-index: -1;
+    display: inline;
+    width: 1400px;
+    object-fit: contain;
+}
+
+.titulo-land-page {
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    padding-left: 20px;
+    position: absolute;
+    top: 0px;
+}
