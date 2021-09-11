@@ -76,7 +76,7 @@ section {
 }
 
 
-section #textone {
+section .textone {
     width:300px;
     height:440px;
     border-radius: 5px 40px 5px 40px;
@@ -86,7 +86,15 @@ section #textone {
     padding: 5px 1em 2px 1em;
 }
 
-section #texttwo {
+#teste {
+    overflow: hidden;
+}
+
+#teste:hover {
+    overflow-y: scroll;
+}
+
+section .texttwo {
     width:300px;
     height:440px;
     border-radius: 40px 5px 40px 5px;
@@ -132,4 +140,19 @@ section #texttwo {
     padding-left: 20px;
     position: absolute;
     top: 0px;
+}
+
+.conteudo {
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+
+.forma-fundo {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-215deg);
+    width: 105%;
 }
