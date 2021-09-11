@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #8e65ff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 24.94px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Prancheta_1" data-name="Prancheta 1">
+    <path id="Forma_direita" data-name="Forma direita" class="cls-1" d="M1391.18,1472.92s-365.95,44.34-404.216-66.67c80.426-203.97-432.518-59.97-407.13-253.45C578.666,1018.06,411.171,756.845-25.185,768" transform="translate(0 -768)"/>
+  </g>
+</svg>
