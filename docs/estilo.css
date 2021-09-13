@@ -296,10 +296,6 @@ input:checked{
         padding: 10px;
     }
 
-    .conteudo {
-        flex-wrap: wrap;
-    }
-
     section {
         font-size: 17px;
     }
@@ -420,15 +416,34 @@ input:checked{
 
 @media screen and (orientation: portrait) {
 
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu ul li a {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    #menu img {
+        width: 80px;
+        height: 80px;
+    }
+
     .conteudo {
-        overflow-y: visible;
+        overflow-y: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
     }
 
     .conteudo article {
         margin: 20px;
     }
-    
+
     .forma-fundo {
         top: 200px;
     }
+
 }
