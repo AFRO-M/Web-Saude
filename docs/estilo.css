@@ -6,6 +6,9 @@ body {
     background-color: #63FFB7;
     margin: 0;
 }
+nav {
+    width: 100vw;
+}
 
 nav img { 
 
