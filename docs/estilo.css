@@ -427,4 +427,8 @@ input:checked{
     .conteudo article {
         margin: 20px;
     }
+    
+    .forma-fundo {
+        top: 200px;
+    }
 }
