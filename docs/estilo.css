@@ -180,7 +180,11 @@ section {
     float: right;
     margin-left: 20px;
 }
-  
+
+#criadores p {
+    line-height: 2em;
+} 
+
 #criadores p:nth-child(odd) {
     text-align: left;
 }
