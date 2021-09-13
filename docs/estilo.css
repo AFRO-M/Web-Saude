@@ -417,3 +417,14 @@ input:checked{
         margin-top: 0;
     }
 }
+
+@media screen and (orientation: portrait) {
+
+    .conteudo {
+        overflow-y: visible;
+    }
+
+    .conteudo article {
+        margin: 20px;
+    }
+}
