@@ -424,6 +424,7 @@ input:checked{
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: nowrap;
+        height: 100%;
     }
 
     .conteudo article {
@@ -433,10 +434,6 @@ input:checked{
 
     .forma-fundo {
         top: 200px;
-    }
-
-    .conteudo {
-        height: 100%;
     }
 }
 
