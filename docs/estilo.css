@@ -375,6 +375,10 @@ input:checked{
         width: 500px;
         height: 640px;
     }
+    
+    .conteudo article {
+        overflow-y: scroll;
+    }
 
     .texttwo {
         width: 500px;
