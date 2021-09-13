@@ -5,15 +5,13 @@ body, html {
     height: 100%;
     overflow-x: hidden;
 }
+
 body {
     background-color: #63FFB7;
     margin: 0;
 }
-nav {
-    width: 100vw;
-}
 
-nav img { 
+#menu img { 
 
     position: relative;
     width: 80px;
@@ -23,7 +21,7 @@ nav img {
     
 }
 
-ul{
+#menu ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -32,12 +30,12 @@ ul{
     margin-bottom: 0;
 }
 
-li a:active {
+#menu ul li a:active {
     color: Thistle;
     cursor: pointer;
 }
 
-li a:hover {
+#menu ul li a:hover {
     color: #63FFB7;
     animation: gradient-hover 1s linear 0s forwards;
 }
@@ -47,7 +45,7 @@ li a:hover {
     to{background-color:  #8d63ff}
 }
 
-ul li {
+#menu ul li {
     font-family: "Amatic SC", cursive;
     font-size: 17px;
     color: white;
@@ -55,7 +53,7 @@ ul li {
     padding-bottom: 20px;
 }
 
-ul li a{
+#menu ul li a{
 
     font-family: "Amatic SC", cursive;
     font-size: 30px;
@@ -73,14 +71,20 @@ section {
     color: white;
 }
 
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-section .textone {
+
+.textone {
+    display: inline-block;
     width:300px;
     height:440px;
     border-radius: 5px 40px 5px 40px;
     background-image: linear-gradient( to left top, #9f7dff, #8d63ff);
-    margin-top: 5em;
-    margin-left: 14em;
     padding: 5px 1em 2px 1em;
 }
 
@@ -92,13 +96,12 @@ section .textone {
     overflow-y: scroll;
 }
 
-section .texttwo {
+.texttwo {
+    display: inline-block;
     width:300px;
     height:440px;
     border-radius: 40px 5px 40px 5px;
     background-image: linear-gradient( to right top,  #9f7dff, #8d63ff);
-    margin-left: 40em;
-    margin-top: -25em;
     padding: 5px 1em 2px 1em;
 }
 
@@ -124,22 +127,13 @@ section .texttwo {
     overflow: hidden;
 }
 
-.imagem-inicial {
-    top: -170px;
-    position: relative;
-    left: 0;
-    z-index: -1;
-    display: inline;
-    width: 1400px;
-    object-fit: contain;
-}
 
 .titulo-land-page {
     max-width: 100%;
     max-height: 100%;
     width: 500px;
     padding-left: 20px;
-    position: absolute;
+    position: relative;
     top: 0px;
 }
 
