@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body, html {
-    max-width: 100%;
-    overflow: hidden;
+    height: 100%;
+    overflow-x: hidden;
 }
 body {
     background-color: #63FFB7;
