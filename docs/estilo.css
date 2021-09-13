@@ -125,7 +125,7 @@ section {
 .titulo-land-page {
     max-width: 100%;
     max-height: 100%;
-    width: 40vh;
+    width: 30vh;
     padding-left: 1.5vh;
     position: relative;
     top: 0px;
@@ -148,4 +148,56 @@ section {
     z-index: -1;
     transform: rotate(-215deg);
     width: 105%;
+}
+
+#criadores h2 {
+    clear: both;
+    color: #63FFB7;
+    background-image: linear-gradient(to bottom, #63FFB7 1%, #9f7dff 1%, transparent);
+    padding: 0.15em 0.15em 0.15em 1em;
+}
+  
+.foto-criadores {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid #9f7dff;
+    box-shadow: 3px 3px 3px silver;
+    border-radius: 50%;
+    position: relative;
+    animation: flutuando .5s ease-in-out 0s infinite alternate;
+}
+
+.foto-criadores:hover {
+    transform: scale(2);
+}
+  
+.foto-criadores:nth-of-type(odd) {
+    float: left;
+    margin-right: 20px;
+}
+  
+.foto-criadores:nth-of-type(even) {
+    float: right;
+    margin-left: 20px;
+}
+  
+#criadores p:nth-child(odd) {
+    text-align: left;
+}
+
+#criadores p:nth-child(even) {
+    text-align: right;
+}
+
+#criadores h2:nth-child(even) {
+    text-align: right;
+}
+
+#criadores h2:nth-child(odd) {
+    text-align: left;
+}
+  
+@keyframes flutuando {
+  from { top: 0;     }
+  to   { top: -30px; }
 }
