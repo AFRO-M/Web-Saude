@@ -226,7 +226,7 @@ input:checked{
 }
 
 .foto-criadores:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
   
 .foto-criadores:nth-of-type(odd) {
