@@ -206,6 +206,7 @@ input:checked{
 }
 
 .suco {
+    position: relative;
     width: 200px;
     height: 210px;
     float: left;
