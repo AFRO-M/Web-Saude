@@ -429,6 +429,15 @@ input:checked{
         width: 700px;
         transform: rotate(290deg);
     }
+
+    .checando {
+        left: -170px;
+        bottom: -90px;
+    }
+
+    .vantagens-lista {
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:1600px) {
@@ -474,6 +483,17 @@ input:checked{
     .topicos li a {
         font-size: 55px;
     }
+
+    .vantagens h3, .list h4 {
+        font-size: 50px;
+    }
+
+    .checando {
+        width: 800px;
+        left: 250px;
+        bottom: -150px;
+    }
+
 }
 
 @media screen and (orientation: portrait) {
@@ -522,6 +542,15 @@ input:checked{
 
     .topicos li a {
         font-size: 30px;
+    }
+
+    .checando {
+        left: -170px;
+        bottom: -90px;
+    }
+
+    .vantagens-lista {
+        width: 70%;
     }
 }
 
