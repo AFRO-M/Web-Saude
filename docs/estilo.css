@@ -211,7 +211,7 @@ input:checked{
     height: 210px;
     float: left;
     margin-left: 30%;
-    animation: boiando 4500ms ease-out 0s infinite alternate;
+    animation: boiando .4s ease-in-out 0s infinite alternate;
 }
 
 @keyframes boiando {
