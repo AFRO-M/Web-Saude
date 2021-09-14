@@ -215,8 +215,8 @@ input:checked{
 }
 
 @keyframes boiando {
-    from {top 0;}
-    to {top: -25px}
+    from {top: 0;}
+    to {top: -25px;}
 }
 
 #criadores h2 {
