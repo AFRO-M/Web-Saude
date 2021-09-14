@@ -210,15 +210,12 @@ input:checked{
     height: 210px;
     float: left;
     margin-left: 30%;
+    animation: boiando 4500ms ease-out 0s infinite alternate;
 }
 
-.suco:hover {
-    animation: girando .2s ease-in 0s 1 reverse;
-}
-
-@keyframes girando {
-    from {transform: rotateZ(0turn);}
-    to {transform: rotateY(2turn);}
+@keyframes boiando {
+    from {top 0;}
+    to {top: -25px}
 }
 
 #criadores h2 {
