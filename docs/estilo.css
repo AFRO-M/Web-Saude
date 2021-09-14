@@ -227,9 +227,10 @@ input:checked{
 .suco {
     position: relative;
     width: 200px;
-    height: 210px;
+    height: 200px;
     float: left;
-    margin-left: 30%;
+    margin-right: 20px;
+    margin-bottom: 100px;
     animation: boiando .4s ease-in-out 0s infinite alternate;
 }
 
@@ -505,6 +506,12 @@ input:checked{
         bottom: -150px;
     }
 
+    .suco {
+        margin-bottom: 200px;
+        width: 300px;
+        height: auto;
+    }
+
 }
 
 @media screen and (orientation: portrait) {
@@ -562,6 +569,14 @@ input:checked{
 
     .vantagens-lista {
         width: 70%;
+    }
+
+    .suco {
+        display: block;
+        margin-bottom: 0px;
+        float: unset;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
