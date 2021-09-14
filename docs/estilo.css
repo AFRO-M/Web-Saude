@@ -328,6 +328,10 @@ input:checked{
     color: #63FFB7;
 }
 
+.vantagens-lista ol li {
+    padding: 20px;
+}
+
 @media screen and (max-width:600px) {
 
     #menu ul li a {
