@@ -277,6 +277,26 @@ input:checked{
   to   { top: -30px; }
 }
 
+.video {
+    width: 70%;
+    height: 86%;
+    border: 7px solid #9F7DFF;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.div-video {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #63FFB7;
+    align-items: center;
+    justify-content: center;
+}
+
 @media screen and (max-width:600px) {
 
     #menu ul li a {
@@ -444,6 +464,12 @@ input:checked{
         height: 100%;
     }
 
+    #video {
+        width: 80%;
+        height: 30%;
+        margin: 20px
+    }
+
     .conteudo article {
         margin: 20px;
         overflow-y: scroll;
@@ -451,6 +477,10 @@ input:checked{
 
     .forma-fundo {
         top: 200px;
+    }
+
+    .div-video .forma-fundo {
+        top: 170px;
     }
 }
 
