@@ -188,6 +188,7 @@ section {
     position: relative;
     display: block;
     line-height: 2em;
+    z-index: 1;
 }
 
 input:checked{
