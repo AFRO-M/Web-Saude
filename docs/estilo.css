@@ -173,6 +173,16 @@ section {
     margin-top: -10px;
 }
 
+.sugestões {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sugestões h3 {
+    font-family: "Amatic SC" , cursiva;
+    font-size: 25px;
+}
+
 .list {
     position: relative;
 }
