@@ -229,55 +229,50 @@ input:checked{
     to {top: -25px;}
 }
 
-#criadores h2 {
-    clear: both;
+.criadores h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 36px;
     color: #63FFB7;
-    background-image: linear-gradient(to bottom, #63FFB7 1%, #9f7dff 1%, transparent);
-    padding: 0.15em 0.15em 0.15em 1em;
+    margin-top: 0;
 }
 
-.foto-criadores {
-    display: inline-block;
+.foto-criadores, .foto-criadores1 {
+    display: inline;
     width: 200px;
-    border: 2px solid #9f7dff;
-    box-shadow: 3px 3px 3px silver;
+    border: 3px solid #63FFB7;
     border-radius: 50%;
     position: relative;
     animation: flutuando .5s ease-in-out 0s infinite alternate;
 }
 
-.foto-criadores:hover {
+.foto-criadores:hover,
+.foto-criadores1:hover {
     transform: scale(1.5);
 }
   
-.foto-criadores:nth-of-type(odd) {
+.foto-criadores {
+    position: relative;
     float: left;
     margin-right: 20px;
 }
   
-.foto-criadores:nth-of-type(even) {
+.foto-criadores1 {
+    position: relative;
     float: right;
     margin-left: 20px;
 }
 
-#criadores p {
-    line-height: 2em;
-} 
-
-#criadores p:nth-child(odd) {
-    text-align: left;
-}
-
-#criadores p:nth-child(even) {
-    text-align: right;
-}
-
-#criadores h2:nth-child(even) {
-    text-align: right;
-}
-
-#criadores h2:nth-child(odd) {
-    text-align: left;
+.criadores {
+    position: relative;
+    background-image: linear-gradient( to right top,  rgba(159, 125, 255, 0.5), rgba(141, 99, 255, 1));
+    border-radius: 35px 0 35px 0;
+    padding: 20px;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
   
 @keyframes flutuando {
