@@ -213,7 +213,7 @@ input:checked{
 }
 
 .suco:hover {
-    animation: girando 2s ease-in 0s 1 reverse;
+    animation: girando .2s ease-in 0s 1 reverse;
 }
 
 @keyframes girando {
