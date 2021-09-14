@@ -187,9 +187,12 @@ input:checked{
 }
 
 .checando {
-    position: relative;
-    width: 30px;
-    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    width: 350px;
+    height: 300px;
 }
 
 #receita {
@@ -203,9 +206,19 @@ input:checked{
 }
 
 .suco {
-    width: 40px;
-    height: 50px;
+    width: 200px;
+    height: 210px;
     float: left;
+    margin-left: 30%;
+}
+
+.suco:hover {
+    animation: girando 2s ease-in 0s 1 reverse;
+}
+
+@keyframes girando {
+    from {transform: rotateZ(0turn);}
+    to {transform: rotateY(2turn);}
 }
 
 #criadores h2 {
