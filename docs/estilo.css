@@ -464,7 +464,7 @@ input:checked{
         height: 100%;
     }
 
-    #video {
+    .video {
         width: 80%;
         height: 30%;
         margin: 20px
